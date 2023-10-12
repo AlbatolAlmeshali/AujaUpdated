@@ -1,6 +1,6 @@
 //
 //  rotate2D.swift
-//  saduAnimetion
+//  CustomDialog
 //
 //  Created by Albatol Almeshali on 27/03/1445 AH.
 //
@@ -8,8 +8,22 @@
 import SwiftUI
 
 struct rotate2D: View {
+    @State private var rotateDen = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        Image("Den")
+            .resizable()
+            .frame(width: 100,height: 100)
+            .rotationEffect(.degrees(rotateDen ? -360:0))
+            .animation(Animation.easeInOut(duration: 7).delay(0.99).repeatForever(autoreverses: false))
+            .onAppear(){
+                self.rotateDen.toggle()
+            }
+        
+        
+
     }
 }
 

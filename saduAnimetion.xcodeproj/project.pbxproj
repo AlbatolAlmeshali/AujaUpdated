@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1633EF072AD7E1B1003F489B /* PopUpProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1633EF062AD7E1B1003F489B /* PopUpProfile.swift */; };
 		1648F18A2AD6921F00962C69 /* saduAnimetionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F1892AD6921F00962C69 /* saduAnimetionApp.swift */; };
 		1648F18C2AD6921F00962C69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1648F18B2AD6921F00962C69 /* ContentView.swift */; };
 		1648F18E2AD6922000962C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1648F18D2AD6922000962C69 /* Assets.xcassets */; };
 		1648F1912AD6922000962C69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1648F1902AD6922000962C69 /* Preview Assets.xcassets */; };
+		8A6176592AD7ECC600709675 /* PopUpInvite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A6176582AD7ECC600709675 /* PopUpInvite.swift */; };
+		8A61765B2AD7F2EE00709675 /* PopUpProfile2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61765A2AD7F2EE00709675 /* PopUpProfile2.swift */; };
+		8A61765D2AD7F36100709675 /* PopUpJoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61765C2AD7F36100709675 /* PopUpJoin.swift */; };
+		8A61765F2AD7F38500709675 /* rotate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A61765E2AD7F38500709675 /* rotate2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1633EF062AD7E1B1003F489B /* PopUpProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpProfile.swift; sourceTree = "<group>"; };
 		1648F1862AD6921F00962C69 /* saduAnimetion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saduAnimetion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1648F1892AD6921F00962C69 /* saduAnimetionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saduAnimetionApp.swift; sourceTree = "<group>"; };
 		1648F18B2AD6921F00962C69 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1648F18D2AD6922000962C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1648F1902AD6922000962C69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A6176582AD7ECC600709675 /* PopUpInvite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpInvite.swift; sourceTree = "<group>"; };
+		8A61765A2AD7F2EE00709675 /* PopUpProfile2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpProfile2.swift; sourceTree = "<group>"; };
+		8A61765C2AD7F36100709675 /* PopUpJoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpJoin.swift; sourceTree = "<group>"; };
+		8A61765E2AD7F38500709675 /* rotate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotate2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				1648F1892AD6921F00962C69 /* saduAnimetionApp.swift */,
 				1648F18B2AD6921F00962C69 /* ContentView.swift */,
+				1633EF062AD7E1B1003F489B /* PopUpProfile.swift */,
+				8A61765A2AD7F2EE00709675 /* PopUpProfile2.swift */,
+				8A6176582AD7ECC600709675 /* PopUpInvite.swift */,
+				8A61765C2AD7F36100709675 /* PopUpJoin.swift */,
+				8A61765E2AD7F38500709675 /* rotate2D.swift */,
 				1648F18D2AD6922000962C69 /* Assets.xcassets */,
 				1648F18F2AD6922000962C69 /* Preview Content */,
 			);
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A61765F2AD7F38500709675 /* rotate2D.swift in Sources */,
+				8A61765D2AD7F36100709675 /* PopUpJoin.swift in Sources */,
 				1648F18C2AD6921F00962C69 /* ContentView.swift in Sources */,
 				1648F18A2AD6921F00962C69 /* saduAnimetionApp.swift in Sources */,
+				1633EF072AD7E1B1003F489B /* PopUpProfile.swift in Sources */,
+				8A6176592AD7ECC600709675 /* PopUpInvite.swift in Sources */,
+				8A61765B2AD7F2EE00709675 /* PopUpProfile2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
