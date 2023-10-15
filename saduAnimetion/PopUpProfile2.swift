@@ -108,6 +108,7 @@ struct PopUpProfile2: View {
 //                    .foregroundColor(Color("Auja3"))
                 Button {
                     isActivePop2 = true
+                 close()
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 8)

@@ -1,14 +1,15 @@
 import SwiftUI
 
 struct PopUpInvite: View {
-    @Binding var isActivePop1: Bool
+    @Binding var isActivePop1: Bool 
 
     let title: String
     let message: String
     let buttonTitle: String
     let action: () -> ()
     @State private var offset: CGFloat = 1000
-
+    @State var isActiveToQ1: Bool = false
+    
     var body: some View {
         ZStack {
             Color(.black)
@@ -88,8 +89,8 @@ struct PopUpInvite: View {
 //                    .font(.body)
 //                    .foregroundColor(Color("Auja3"))
                 Button {
-                    action()
-                    close()
+                  //  action()
+                    isActiveToQ1 = true
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 8)
@@ -126,6 +127,9 @@ struct PopUpInvite: View {
                 withAnimation(.spring()) {
                     offset = 0
                 }
+            }
+            if isActiveToQ1 {
+Test()
             }
         }
         .ignoresSafeArea()

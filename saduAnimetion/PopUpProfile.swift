@@ -107,6 +107,7 @@ struct PopUpProfile: View {
 //                    .font(.body)
 //                    .foregroundColor(Color("Auja3"))
                 Button {
+                   // close()
                     isActivePop1 = true
                 } label: {
                     ZStack {

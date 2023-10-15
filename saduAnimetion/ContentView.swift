@@ -12,6 +12,9 @@ struct ContentView: View {
     @State var LMoving = true
     @State var isActive1 : Bool=false
     @State var isActive2 : Bool=false
+
+    
+
     
   // Replace with your image names
     var body: some View {
@@ -45,8 +48,7 @@ struct ContentView: View {
                 .padding(.top, -70)
                 
         
-                Button{
-                    isActive1 = true}
+                Button{isActive1 = true}
                     label:{ Text("Creat room")
                     .buttonStyle(.borderedProminent)
                     .tint(Color(red: 0.674, green: 0.528, blue: 0.743))
@@ -56,13 +58,13 @@ struct ContentView: View {
                    .foregroundColor (Color("Auja4"))
                    .background(Color("Auja1"))
                    .cornerRadius(10)
-                        
-                   
-                
+               
             }
                 
-              Button{ isActive2 = true}
-              label:{ Text("Join Room ")
+                Button{
+                    isActive2 = true
+                }label:{
+                    Text("Join Room ")
              .buttonStyle(.borderedProminent)
              .tint(Color(red: 0.582, green: 0.714, blue: 0.699))
             .controlSize(.large)
@@ -71,9 +73,7 @@ struct ContentView: View {
              .foregroundColor (Color("Auja4"))
              .background(Color("Auja5"))
              .cornerRadius(10)
-                        
-
-                        
+                    
                     }
 
                     
@@ -94,7 +94,10 @@ struct ContentView: View {
         }
 
     }
+   
 }
+
+
 
 #Preview {
     ContentView()
